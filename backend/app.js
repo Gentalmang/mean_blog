@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
@@ -21,7 +21,7 @@ app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
     "Access-Control-Allow-Headers",
-     "Origin, X-Requested-With, Content-Type, Accept"
+    "Origin, X-Requested-With, Content-Type, Accept"
   );
   res.setHeader(
     "Access-Control-Allow-Methods",
